@@ -5,12 +5,12 @@ import json
 import requests
 
 WEBHOOK_VERIFY_TOKEN = 'test_faq_token'
-PAGE_ACCESS_TOKEN = 'EAAFsm40w8bABANUsDqDbu8Xh1af8g97NmLUNIZACtxSnUthxt6nx1wTF9ZC9iTzRQyn2eEjPOZCxxio3kr7GSKZAExeZAiKSqIdsVcmGRBp0PbhYWhHHXnkg1xcZBxfUKkUqxkBLlqJedEqDDVVS9LUQ4rxgTxMD3lKI1sWNsq8hgVuJYRUHeno2DrdfpdX40UAtcUUA8D9QZDZD'
+PAGE_ACCESS_TOKEN = 'EAAqpk4u8zrABAHotxALIbjN4NdZBEJJkz1WQXx9v5heLx4ZCxQNgplsGcA8JKyRdGwutBlxVDz9fjfRvwlAg0JGmW9bdscKuMz02AdJ2oQ5fG32TZAtXcJEdfKZBPlZB5veZCBBftVD5SAv7hz5NpWwMj2Ym5kWbQfJeBvfztxB1YLsdgaoAZCgEE4IDy3fimiSidOI5X3EZAgZDZD'
 SEND_API_URL = 'https://graph.facebook.com/v5.0/me/messages?access_token=%s'\
   %PAGE_ACCESS_TOKEN
 
 HEADERS = {'content-type': 'application/json'}
-IG_ACC_TO_REPLY = '100841475479486'
+IG_ACC_TO_REPLY = '111565571163022'
       
       
 def send_message(body):
